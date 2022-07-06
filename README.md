@@ -39,4 +39,5 @@ outputs :
    node readWeatherMulticall.js
 
    outputs:
-   
+   <img width="668" alt="截屏2022-07-06 21 32 04" src="https://user-images.githubusercontent.com/104058212/177562392-80c50128-d456-4cfd-922c-388717e99d14.png">
+
