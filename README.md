@@ -32,4 +32,11 @@ outputs :
 
    2、use @makerdao/multical.js  aggregate call, script : training/assignment2/scripts/readWeatherMulticall.js
    
+   test:
+
+   npm install @makerdao/multicall
+
+   node readWeatherMulticall.js
+
+   outputs:
    
