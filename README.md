@@ -1,6 +1,12 @@
 # training
 
 
+get btc price 
+
+<img width="697" alt="截屏2022-07-06 21 26 20" src="https://user-images.githubusercontent.com/104058212/177561002-eb8c7c33-68a7-4262-86e6-931b6025f2d9.png">
+
+
+
 1、Write data to a smart contract、read data， use ethers.js
 
     cd training/assignment2/scripts
