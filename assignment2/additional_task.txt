@@ -1,0 +1,25 @@
+Question 1: If the API returns the temperature in a decimal form (like 27.5 C), how to submit this decimal number to the smart contract while keeping its precision?
+
+
+     1、 We can multiply the temperature by 10, report to the smart contract, 
+
+     2、 When we read the temperature from the smart contract,  divide by 10
+
+
+
+Question 2: How to store a negative temperature while keeping the current smart contract interface unchanged?
+
+   
+   Bit operations, two’s complement representation of the number
+
+
+
+Question 3: During the "Step 3" in the task, it will take 3 JSON-RPC calls to read weather info for 3 cities from smart contract. 
+Is it possbile to reduce that to only one request to get all the data back? (Hint: Google search "makerdao multicall")
+
+   
+   use makerdao multicall  aggregate, 
+   
+   1、use remix deploy multicall contract : training/assignment2/contracts/Multicall.sol
+
+   2、use @makerdao/multical.js  aggregate call, script : training/assignment2/scripts/readWeatherMulticall.js
