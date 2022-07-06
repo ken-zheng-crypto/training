@@ -24,6 +24,8 @@ outputs :
 
 
 
+Additional Task : https://github.com/ken-zheng-crypto/training/blob/main/assignment2/additional_task.txt
+
 3、 multicall smart contract function
 
    use makerdao multicall  aggregate, 
