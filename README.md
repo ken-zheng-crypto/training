@@ -31,6 +31,8 @@ Additional Task : https://github.com/ken-zheng-crypto/training/blob/main/assignm
    use makerdao multicall  aggregate, 
    
    1、use remix deploy multicall contract : training/assignment2/contracts/Multicall.sol
+   
+     https://testnet.cronoscan.com/address/0x3e6A08EbF49937f07a2d9fAeCC2beFbDcD58c503
 
    2、use @makerdao/multical.js  aggregate call, script : training/assignment2/scripts/readWeatherMulticall.js
    
