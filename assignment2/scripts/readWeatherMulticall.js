@@ -27,11 +27,11 @@ const config = {
 				returns: [[cityNameArr[0] + '_temperature']]
 			},
 			{
-				call: ['getWeather(uint32,bytes32)(uint32)', batchId, ethers.utils.formatBytes32String(cityNameArr[0])],
+				call: ['getWeather(uint32,bytes32)(uint32)', batchId, ethers.utils.formatBytes32String(cityNameArr[1])],
 				returns: [[cityNameArr[1] + '_temperature']]
 			},
 			{
-				call: ['getWeather(uint32,bytes32)(uint32)', batchId, ethers.utils.formatBytes32String(cityNameArr[0])],
+				call: ['getWeather(uint32,bytes32)(uint32)', batchId, ethers.utils.formatBytes32String(cityNameArr[2])],
 				returns: [[cityNameArr[2] + '_temperature']]
 			}
 		],
